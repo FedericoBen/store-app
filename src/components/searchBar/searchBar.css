@@ -1,0 +1,31 @@
+.container-form{
+    display: flex;
+    height: 100%;
+    /* grid-template-columns: auto auto; */
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    
+}
+
+
+.item-form button{    
+    margin: 0px; 
+}
+
+.item-form input{
+    width: auto;
+    border: none;
+    border-radius: 4px;
+    padding: 10px;
+    margin: 10px;
+}
+
+@media(max-width: 768px) {
+    .item-form input{
+        width: 140px;
+        border: none;
+        padding: 10px;
+        margin: 0px;
+    }
+}
